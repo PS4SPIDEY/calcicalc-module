@@ -1,8 +1,8 @@
 import module as mod
 
 while True:
-	NO1 = input("Enter number1:")
-	NO2 = input("Enter number2:")
+	NO1 = int(input("Enter number1:"))
+	NO2 = int(input("Enter number2:"))
 
 	mod.add(NO1,NO2)
 	mod.sub(NO1,NO2)
